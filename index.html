@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Proektche</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.videobackground.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>
+        <script src="http://vjs.zencdn.net/4.0/video.js"></script>
+        <script type="text/javascript" src="js/bigvideo.js"></script>
+    </head>
+ <body>
+     <script>
+            $(function() {
+                var BV = new $.BigVideo();
+                BV.init();
+                BV.show('klip1.mp4',{ambient:true});
+            });
+     </script> 
+ 	<div id="shell">
+ 		<div id="header"></div>
+ 		<div id="container"></div>
+ 		<div id="footer"></div>
+ 	</div>
+</body>
+</html>
+
